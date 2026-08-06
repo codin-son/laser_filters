@@ -10,11 +10,11 @@ scan_to_scan_filter_chain:
             type: filters/MultiChannelMedianFilterFloat 
             params:
               number_of_observations: 5
-              unused: 10
+              unused: 5
         intensity_filter_chain:
           filter1:
             name: median
             type: filters/MultiChannelMedianFilterFloat 
             params:
               number_of_observations: 5
-              unused: 10
+              unused: 5
